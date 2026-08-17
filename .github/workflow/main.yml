@@ -23,4 +23,4 @@ jobs:
 
       - name: Deploy Portfolio to S3
         run: |
-          aws s3 sync . s3://talib-portfolio-bucket --delete
+          aws s3 sync . s3://talib-portfolio--bucket --delete
